@@ -1,0 +1,41 @@
+{
+	"index": {
+		"pageTitle": "Home"
+	},
+	"about": {
+		"pageTitle": "About"
+	},
+	"products": {
+		"pageTitle": "Products"
+	},
+	"store": {
+		"pageTitle": "Store"
+	},
+	"gallery":	{
+		"pageTitle": "Gallery"
+	},
+	"blog":	{
+		"pageTitle": "Blog"
+	},
+	"menu":	{
+		"pageTitle": "Menu",
+		"cookies": [
+			{"name":"Chocolate Chip", "img":"cookie-1.jpg", "text":""},
+			{"name":"Sprinkle", "img":"cookie-4.jpg", "text":"Heritage, Regal, Country Roving and Durasport"},
+			{"name":"Macaroon", "img":"cookie-2.jpg", "text":"Cascade 220 and 220 sport super wash, Heritage Sock Yarn, Eco Duo"},
+			{"name":"Oatmeal Rasin", "img":"cookie-1.jpg", "text":"Hudson, Eco Andian DK, New Estelle Worsted"}
+		],
+		"cakes": [
+			{"name":"Black Forest", "img":"cake-1.jpg", "text":""},
+			{"name":"Cappucino Cheesecake", "img":"cake-2.jpg", "text":"Heritage, Regal, Country Roving and Durasport"},
+			{"name":"German Chocolate Cake", "img":"cake-3.jpg", "text":"Cascade 220 and 220 sport super wash, Heritage Sock Yarn, Eco Duo"},
+			{"name":"Carrot Cake", "img":"cake-4.jpg", "text":"Hudson, Eco Andian DK, New Estelle Worsted"}
+		],
+		"pastries": [
+			{"name":"Croissant", "img":"danish-1.jpg", "text":""},
+			{"name":"Blueberry Danish Round", "img":"danish-2.jpg", "text":"Heritage, Regal, Country Roving and Durasport"},
+			{"name":"Closed Cheese Pocket", "img":"danish-3.jpg", "text":"Cascade 220 and 220 sport super wash, Heritage Sock Yarn, Eco Duo"}
+		]
+
+	}
+}

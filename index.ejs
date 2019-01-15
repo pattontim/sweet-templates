@@ -1,0 +1,119 @@
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="secondaryNav">
+    <div class="container">
+      <%# <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> %>
+      <img class="navbar-brand img-fluid img-rounded" src="img/logo.png"></img>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item <%- current.source=="index"?"active":""%>">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item <%- current.source=="about"?"active":""%>">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item <%- current.source=="gallery"?"active":""%>">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item <%- current.source=="menu"?"active":""%>">
+            <a class="nav-link js-scroll-trigger" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item <%- current.source=="blog"?"active":""%>">
+            <a class="nav-link js-scroll-trigger" href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome To Our Cake & Pastry Shop!</div>
+        <div class="intro-heading text-uppercase">We'd Love To Have You</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="menu.html">See Our Baked Goods</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Floater -->
+  <section class="floater">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid rounded" src="img/wall-1.jpg" />
+        </div>
+        <div class="col-lg-6">
+          <p class="mt-5 text-muted text-uppercase"> Our story</p>
+          <p class="floattext">Hello and welcome! We’re a small friendly bakery where you can relax and enjoy our tasty pastries and cake.</h1>
+            <img class="img-fluid mt-5 floatimg" src="img/wall-2.jpeg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Opening Times -->
+  <section class="hours">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4 class="text-center">Opening times</h4>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center border-bottom">
+              Weekdays
+              <p>9:00AM - 6:00PM</p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-bottom">
+              Sat
+              <p>9:00AM - 2:00PM</p>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Sun
+              <p>Closed</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 directions">
+          <%# TODO insert icon %>
+            <div class="row align-items-center justify-content-center my-4" style="font-size:3em; color:#e68fac">
+              <i class="fa fa-map"></i>
+            </div>
+            <h4 class="text-center text-white mt-3">Directions</h4>
+            <p class="lead text-center text-white">21 King St E, Bowmanville</p>
+            <div class="row align-items-center justify-content-center mb-3">
+              <a type="button" class="btn btn-primary" href="https://goo.gl/maps/Yp82Ucy9epB2">View on map</a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="text-center mt-3">Get in touch</h4>
+          <h5 class="text-center mt-3">+905-623-0165</h5>
+          <h5 class="text-center mt-3 lead">Synyard86@gmail.com</h5>
+          <%# <div class="row justify-content-center">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.tripadvisor.ca/Restaurant_Review-g499253-d9704167-Reviews-Brianna_s_Sweet_Treats-Bowmanville_Ontario.html">
+                  <i class="fa fa-tripadvisor"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/BriannasSweetTreats/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/briannasweetreats/?hl=en">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div> %>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

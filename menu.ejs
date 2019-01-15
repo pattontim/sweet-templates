@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+  <div class="col-lg-6">
+    <h4 class="border-bottom pb-2 mt-3">Cookies</h4>
+    <%# we pass each into the include function, it is available globally in the included file, must be an array to work %>
+      <% cookies.forEach(function(product) { %>
+        <%- include('partial/_prodcard', product); %>
+          <% }); %>
+  </div>
+  <div class="col-lg-6">
+    <h4 class="border-bottom pb-2 mt-3">Cakes</h4>
+    <%# we pass each into the include function, it is available globally in the included file, must be an array to work %>
+      <% cakes.forEach(function(product) { %>
+        <%- include('partial/_prodcard', product); %>
+          <% }); %>
+  </div>
+  <div class="col-lg-6">
+    <h4 class="border-bottom pb-2 mt-3">Pastries</h4>
+    <%# we pass each into the include function, it is available globally in the included file, must be an array to work %>
+      <% pastries.forEach(function(product) { %>
+        <%- include('partial/_prodcard', product); %>
+          <% }); %>
+  </div>
+</div>
+</div>
